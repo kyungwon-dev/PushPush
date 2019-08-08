@@ -236,16 +236,16 @@ public class View extends JPanel{
 	public void SetSaveTime(int num){saveTime=num;}
 	/***********************이미지*********************/
 	public void MapImage() {
-		images[0] = toolkit.getImage("케릭터(0).jpg");
-		images[1] = toolkit.getImage("벽돌(1).jpg");
-		images[2] = toolkit.getImage("폭탄(2).jpg");
-		images[3] = toolkit.getImage("키(3).jpg");
-		images[4] = toolkit.getImage("길(4).jpg");
-		images[5] = toolkit.getImage("확인(5).gif");
-		images[6] = toolkit.getImage("배경(6).jpg");
-		images[7] = toolkit.getImage("배경화면.jpg");
-		images[8] = toolkit.getImage("Boom.jpg");
-		images[9] = toolkit.getImage("초기화면.jpg");
+		images[0] = toolkit.getImage("../images/케릭터(0).jpg");
+		images[1] = toolkit.getImage("../images/벽돌(1).jpg");
+		images[2] = toolkit.getImage("../images/폭탄(2).jpg");
+		images[3] = toolkit.getImage("../images/키(3).jpg");
+		images[4] = toolkit.getImage("../images/길(4).jpg");
+		images[5] = toolkit.getImage("../images/확인(5).gif");
+		images[6] = toolkit.getImage("../images/배경(6).jpg");
+		images[7] = toolkit.getImage("../images/배경화면.jpg");
+		images[8] = toolkit.getImage("../images/Boom.jpg");
+		images[9] = toolkit.getImage("../images/초기화면.jpg");
 		}
 	public void paintMap() {
 		this.MapImage();
